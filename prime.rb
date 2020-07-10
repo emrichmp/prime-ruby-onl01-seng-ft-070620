@@ -7,6 +7,6 @@ def prime?(num)
       num % test_num == 0
     end
   else
-    
+    false
   end
 end

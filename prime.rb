@@ -4,7 +4,7 @@ def prime?(num)
   if num > 1
     test = (start..0).to_a
     test.none? do |test_num|
-      num % test_num
+      num % test_num == 0
     end
   else
     

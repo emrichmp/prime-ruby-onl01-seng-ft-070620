@@ -26,7 +26,11 @@ def prime?(num)
   if num > 1
     test = (start..num-1).to_a
     test.each do |test_num|
-      num % test_num == 0
+      if num % test_num == 0
+        return false
+      else
+        return true
+      end
     end
   else
     false

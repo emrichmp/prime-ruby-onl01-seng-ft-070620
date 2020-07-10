@@ -4,6 +4,8 @@ def prime?(num)
   if num > 1
     test = (start..0).to_a
     test.none? do |test_num|
+      
+    end
   else
     
   end

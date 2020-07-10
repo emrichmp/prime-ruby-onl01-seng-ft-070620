@@ -2,6 +2,6 @@
 def prime?(num)
   start = 2
   if number > 1
-    range = (start..number)
+    range = (start..number-1)
   end
 end
